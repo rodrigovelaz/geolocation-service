@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: geolocation-service
+  cloud:
+    config:
+      failFast: true
+      discovery:
+        enabled: true
