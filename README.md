@@ -3,10 +3,10 @@
 - REST micro service for geolocation
 - Uses the free ip database maxmind: https://dev.maxmind.com/geoip/geoip2/geolite2/
 
-# Admin
+# Swagger
 
-- Swagger-json: http://localhost:8080/v2/api-docs
-- Swagger-ui: http://localhost:8080/swagger-ui.html
+- JSON: http://localhost:8080/v2/api-docs
+- UI: http://localhost:8080/swagger-ui.html
 
 # Dependencies
 
