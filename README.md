@@ -1,6 +1,6 @@
 # Geolocation Service
 
-- REST micro service for geolocation
+- Java REST microservice for geolocation
 - Uses the free ip database maxmind: https://dev.maxmind.com/geoip/geoip2/geolite2/
 
 # Swagger
