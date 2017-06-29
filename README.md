@@ -24,10 +24,10 @@
 
 # Enviroment parameters
 
-* Eureka config
+= Eureka config
 - eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
 - eureka.instance.preferIpAddress: true
 
-* Spring cloud config
+= Spring cloud config
 - spring.cloud.config.profile: dev
 - spring.cloud.config.label: master
