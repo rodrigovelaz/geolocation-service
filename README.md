@@ -1,7 +1,10 @@
 # Geolocation Service
 
 - Java REST microservice for geolocation
-- Uses the free ip database maxmind: https://dev.maxmind.com/geoip/geoip2/geolite2/
+- Geolocation database: Maxmind: https://dev.maxmind.com/geoip/geoip2/geolite2/
+- Service discovery: Eureka Server
+- Configuration: Spring Cloud Config Server 
+- REST Documentation: Swagger
 
 # Swagger
 
@@ -11,10 +14,14 @@
 # Dependencies
 
 - java: 1.8
-- spring-boot: 1.5.2.RELEASE
-- spring-boot-actuator
-- spring-cloud: Camden.SR5
-- spring-cloud-eureka-client
+- spring-boot-starter-parent: 1.5.2.RELEASE
+- spring-boot-starter-web
+- spring-boot-starter-actuator
+- spring-cloud-dependencies: Camden.SR5
+- spring-cloud-starter-config
+- spring-cloud-starter-eureka
+- springfox-swagger2: 2.5.0
+- springfox-swagger-ui: 2.5.0
 
 # Default parameters
 
