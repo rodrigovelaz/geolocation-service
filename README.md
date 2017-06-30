@@ -18,7 +18,7 @@
 
 # Default parameters
 
-- spring.application.name: geolocationservice
+- spring.application.name: geolocation-service
 - spring.cloud.config.failFast: true
 - spring.cloud.config.discovery.enabled: true
 
